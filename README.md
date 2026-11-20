@@ -35,7 +35,7 @@ The sign-in page also has one-click demo buttons that fill these in.
 
 ```bash
 npm install
-cp .env.example .env.local   # set NEXT_PUBLIC_API_URL
+cp  .env.local   # set NEXT_PUBLIC_API_URL
 npm run dev                  # http://localhost:3000
 ```
 
