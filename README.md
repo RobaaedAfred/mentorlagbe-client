@@ -2,9 +2,8 @@
 
 **Smart Tuition & Mentorship Platform.** MentorLagbe connects verified Tutors who offer subject-wise batches or 1-on-1 mentorship with Students looking for personalised guidance, while Admins moderate listings, users and Stripe subscription payments.
 
-- **Live site:** `https://<your-client>.vercel.app` _(replace after deploying)_
-- **API (server repo):** `https://<your-server>.vercel.app` _(replace after deploying)_
-
+- **Live site:** https://mentorlagbe-three.vercel.app
+- **API (server repo):** https://mentorlagbe-server-teal.vercel.app
 ## Admin credentials (seeded demo data)
 
 | Role    | Email                        | Password     |
