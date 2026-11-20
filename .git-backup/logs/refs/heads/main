@@ -1,0 +1,26 @@
+0000000000000000000000000000000000000000 7f67c52678b3d1f2e16cd40db691ca9b7981079b RobaaedAfred <robaaed.afred@gmail.com> 1795018728 +0600	commit (initial): Initial commit from Create Next App
+7f67c52678b3d1f2e16cd40db691ca9b7981079b 7f67c52678b3d1f2e16cd40db691ca9b7981079b RobaaedAfred <robaaed.afred@gmail.com> 1795019113 +0600	Branch: renamed refs/heads/master to refs/heads/main
+7f67c52678b3d1f2e16cd40db691ca9b7981079b 521ddd8f1960eb9f40ebf1e1a40a45362df32969 RobaaedAfred <robaaed.afred@gmail.com> 1795022478 +0600	commit: project config — package, ts, next, tailwind, postcss
+521ddd8f1960eb9f40ebf1e1a40a45362df32969 8dc48e547aed73a50cfe5d4ee6a1d76762af7893 RobaaedAfred <robaaed.afred@gmail.com> 1795023524 +0600	commit: add global styles and lib helpers
+8dc48e547aed73a50cfe5d4ee6a1d76762af7893 fc698f43917dc38e1d88060926898e43b8ce7b4e RobaaedAfred <robaaed.afred@gmail.com> 1795023831 +0600	commit: add navbar and hero banner section
+fc698f43917dc38e1d88060926898e43b8ce7b4e caa1ea067e29bb7ad8277b9337da58c58c65682f RobaaedAfred <robaaed.afred@gmail.com> 1795024941 +0600	commit: add footer and social link
+caa1ea067e29bb7ad8277b9337da58c58c65682f 7f9400f811894481705f60dc9f3a1bc2f5193457 RobaaedAfred <robaaed.afred@gmail.com> 1795025505 +0600	commit: font, theme & toast added
+7f9400f811894481705f60dc9f3a1bc2f5193457 e62a05c70716e5c2243cde5088f269b328b6572d RobaaedAfred <robaaed.afred@gmail.com> 1795026471 +0600	commit: add how it works, subjects and stats sections
+e62a05c70716e5c2243cde5088f269b328b6572d 91dbefec76b3fb7bd8bf774870f14479ef73efd4 RobaaedAfred <robaaed.afred@gmail.com> 1795101382 +0600	commit: tuition card added
+91dbefec76b3fb7bd8bf774870f14479ef73efd4 33dcbe41c7333b3e2a4a88ed80dc38b7cb707d07 RobaaedAfred <robaaed.afred@gmail.com> 1795101773 +0600	commit: add featured tuitions section with loading and error states
+33dcbe41c7333b3e2a4a88ed80dc38b7cb707d07 83a58bd220f3c14d176d6dc557dcd168c0b8af92 RobaaedAfred <robaaed.afred@gmail.com> 1795101979 +0600	commit: assemble home page with pricing section and error states
+83a58bd220f3c14d176d6dc557dcd168c0b8af92 92189f3b1f82e77075b52e8d2109cb9287e513ea RobaaedAfred <robaaed.afred@gmail.com> 1795102370 +0600	commit: add tuition browse page with filters, search and bookmarks
+92189f3b1f82e77075b52e8d2109cb9287e513ea dd7bb343d17965440cf049c108d107aaf2dcc194 RobaaedAfred <robaaed.afred@gmail.com> 1795102967 +0600	commit: add tuition detail page with apply modal
+dd7bb343d17965440cf049c108d107aaf2dcc194 cce3a238238d60235fdb74c156b220d108b7e360 RobaaedAfred <robaaed.afred@gmail.com> 1795103082 +0600	commit: add about page
+cce3a238238d60235fdb74c156b220d108b7e360 0e474ea3d80944e6f1092854d3c317e5d96bd171 RobaaedAfred <robaaed.afred@gmail.com> 1795103290 +0600	commit: add pricing page
+0e474ea3d80944e6f1092854d3c317e5d96bd171 8c54ba91572bdaaac46687af57ea1582c5c4dcdd RobaaedAfred <robaaed.afred@gmail.com> 1795103898 +0600	commit: add sign in page with auth shell
+8c54ba91572bdaaac46687af57ea1582c5c4dcdd 29bbc6106c0ac517034bd37de2cd5c55773c37df RobaaedAfred <robaaed.afred@gmail.com> 1795104289 +0600	commit: add sign up page with role picker
+29bbc6106c0ac517034bd37de2cd5c55773c37df f14df9878c5e85259d2feba8da9b7fddeca18fd5 RobaaedAfred <robaaed.afred@gmail.com> 1795104512 +0600	commit: add payment success and cancel pages
+f14df9878c5e85259d2feba8da9b7fddeca18fd5 6e61bfca1d4a648899e05a162f646c336299c93a RobaaedAfred <robaaed.afred@gmail.com> 1795104839 +0600	commit: add dashboard shell with sidebar, role guard and widgets
+6e61bfca1d4a648899e05a162f646c336299c93a 68101a59df15eb40e424028132b80bca6f1091ff RobaaedAfred <robaaed.afred@gmail.com> 1795105132 +0600	commit: add post tuition form with banner upload and plan limit
+68101a59df15eb40e424028132b80bca6f1091ff f3280d1a6dcf3a7009446df9f3720d0e16c7dc15 RobaaedAfred <robaaed.afred@gmail.com> 1795107743 +0600	commit: add tutor overview and my tuitions management
+f3280d1a6dcf3a7009446df9f3720d0e16c7dc15 a2dc90d5ff4a243065a7e1f2c57db3308bf02faa RobaaedAfred <robaaed.afred@gmail.com> 1795107977 +0600	commit: add applicants page with accept and reject
+a2dc90d5ff4a243065a7e1f2c57db3308bf02faa 636a9b1909f6f125b94c96ec23155b838ad857ee RobaaedAfred <robaaed.afred@gmail.com> 1795108465 +0600	commit: add student overview and my applications page
+636a9b1909f6f125b94c96ec23155b838ad857ee 4c6a3079814a75acefeebba5913725ac9e60b245 RobaaedAfred <robaaed.afred@gmail.com> 1795112165 +0600	commit: add saved tuitions page
+4c6a3079814a75acefeebba5913725ac9e60b245 1d34e75c12c2e2a2a785f7931cef309b4fd362ef RobaaedAfred <robaaed.afred@gmail.com> 1795112298 +0600	commit: add admin overview and user role management
+1d34e75c12c2e2a2a785f7931cef309b4fd362ef a00d76d6460f89002c1d0662ebea24e0a5c16e66 RobaaedAfred <robaaed.afred@gmail.com> 1795164628 +0600	commit: admin tuition approvals and transactions

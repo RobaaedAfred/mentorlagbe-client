@@ -101,7 +101,7 @@ export default function BrowseTuitions() {
       </div>
 
       <div className="mb-5 flex items-center justify-between text-sm text-base-content/60">
-        <span>{data ? `${data.total} tuition${data.total === 1 ? "" : "s"} found` : " "}</span>
+        <span>{data ? `${data.total} tuition${data.total === 1 ? "" : "s"} found` : " "}</span>
         {hasFilters && <button onClick={reset} className="btn btn-ghost btn-xs gap-1"><RotateCcw size={13} /> Reset filters</button>}
       </div>
 
