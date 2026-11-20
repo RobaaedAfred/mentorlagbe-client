@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { api, errorMessage } from "./api";
 
-/** Small data hook: loads on mount (and when `path` changes) and exposes reload/setData. */
+
 export function useFetch<T>(path: string | null, auth = false) {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState(!!path);
