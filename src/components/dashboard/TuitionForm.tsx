@@ -59,7 +59,7 @@ export default function TuitionForm({
     const d = Number(v.daysPerWeek);
     if (!(d >= 1 && d <= 7)) err.daysPerWeek = "Between 1 and 7 days";
     if (!v.bannerImage) err.bannerImage = "Upload a banner image";
-    if (v.description.trim().length < 30) err.description = "Description must be at least 30 characters";
+    if (v.description.trim().length < 10) err.description = "Description must be at least 10 characters";
     setErrors(err);
     if (Object.keys(err).length) {
       toast.error("Please fix the highlighted fields");
@@ -120,7 +120,6 @@ export default function TuitionForm({
         <button type="button" onClick={() => fileRef.current?.click()} disabled={uploading}
           className={`relative grid h-48 w-full place-items-center overflow-hidden rounded-xl border-2 border-dashed transition hover:border-primary ${errors.bannerImage ? "border-error" : "border-base-300"}`}>
           {v.bannerImage ? (
-            // eslint-disable-next-line @next/next/no-img-element
             <img src={v.bannerImage} alt="Banner preview" className="h-full w-full object-cover" />
           ) : (
             <span className="flex flex-col items-center gap-2 text-sm text-base-content/50"><ImagePlus size={28} /> Click to upload (JPG/PNG, max 6MB)</span>
