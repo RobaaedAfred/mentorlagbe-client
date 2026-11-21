@@ -49,6 +49,16 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          {user && (
+            <Link
+              href="/dashboard"
+              className={`rounded-lg px-3.5 py-2 text-sm font-medium transition-colors ${
+                isActive("/dashboard") ? "bg-primary/10 text-primary" : "text-base-content/70 hover:bg-base-200 hover:text-base-content"
+              }`}
+            >
+              Dashboard
+            </Link>
+          )}
         </nav>
 
         <div className="flex items-center gap-2">
@@ -100,6 +110,11 @@ export default function Navbar() {
                 {l.label}
               </Link>
             ))}
+            {user && (
+              <Link href="/dashboard" onClick={() => setOpen(false)} className={`rounded-lg px-3 py-2.5 text-sm font-medium ${isActive("/dashboard") ? "bg-primary/10 text-primary" : ""}`}>
+                Dashboard
+              </Link>
+            )}
             {!user && !loading && (
               <div className="mt-2 grid grid-cols-2 gap-2">
                 <Link href="/sign-in" onClick={() => setOpen(false)} className="btn btn-outline btn-sm">Sign In</Link>
