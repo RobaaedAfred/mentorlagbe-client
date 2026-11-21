@@ -4,15 +4,6 @@
 
 - **Live site:** https://mentorlagbe-three.vercel.app
 - **API (server repo):** https://mentorlagbe-server-teal.vercel.app
-## Admin credentials (seeded demo data)
-
-| Role    | Email                        | Password     |
-| ------- | ---------------------------- | ------------ |
-| Admin   | admin@mentorlagbe.com        | Mentor@123   |
-| Tutor   | farhana@mentorlagbe.com      | Mentor@123   |
-| Student | rafi@mentorlagbe.com         | Mentor@123   |
-
-The sign-in page also has one-click demo buttons that fill these in.
 
 ## Key features
 
