@@ -81,7 +81,7 @@ export default function SignInPage() {
         </button>
       </form>
 
-      <div className="divider my-6 text-xs text-base-content/50">Quick demo login</div>
+      <div className="divider my-6 text-xs text-base-content/50">Quick demo login for assessment</div>
       <div className="grid grid-cols-3 gap-2">
         {demo.map((d) => (
           <button key={d.label} type="button" className="btn btn-outline btn-sm" onClick={() => { setForm({ email: d.email, password: "Mentor@123" }); setErrors({}); }}>
